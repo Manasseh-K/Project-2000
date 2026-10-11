@@ -4,30 +4,45 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Project 2000</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Take it easy, Project 2000's Got You 😉</h1>
-        <img src="Images\neil-thomas-SIU1Glk6v5k-unsplash.jpg" alt="hand supporting a tree branch" width="500"height="auto">
-        <p>Project 2000 is a college check list and helper tool. It helps you stay organized and on track. It does this by helping you keep records of your test score, GPA, academic achievements, and extracurricular activities. Additionally, Project 2000 provides links to extra resources and information to help you stay in the know</p>
-        <h2>Overview</h2>
-        <ul>
-            <li>Test scores and GPA</li>
-            <li>Achievements</li>
+        <header class="the-top-banner">
+            <h1>Project 2000</h1>
+            <p class="quote">Take it easy, Project 2000's Got You 😉</p>
+        </header>
+
+        <div class="the-dashboard-container">
+
+
+            <aside class="the-left-dashboard">
+                <h2>Overview</h2>
+                <p>Welcome to the Project-2000 Dashboard</p>
+                <br>
+        <ul class="the-left-dashboard-list">
+            <li><a href="#">Test scores and GPA</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Academic Progress</a></li>
+            <details id="extracurricular-activities-dropdown-menu" class="extracurricular-activities-dropdown-menu">
+                <summary>Extracurricular Activities</summary>
                 <ul>
-                    <li>Academic</li>
-                    <li>Extracurricular</li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Clubs and Organizations</a></li>
+                    <li><a href="#">Volunteer work</a></li>
+                    <li><a href="#">Internships and Camps</a></li>
+                    <li><a href="#">Leadership Roles</a></li>
                 </ul>
-            </li>
-            <li>Extracurricular Activities
-                <ul>
-                    <li>Sports</li>
-                    <li>Clubs and Organizations</li>
-                    <li>Volunteer work</li>
-                    <li>Internships and Camps</li>
-                    <li>Leadership Roles</li>
-                </ul>
-            </li>
-            <li>Resources and More Information</li>
+            </details>
+            <li><a href="#">Resources and More Information</a></li>
         </ul>
+        </aside>
+        
+        <main class="the-content-panel">
+
+            <div id="the-display-area">
+                <img src="Images\neil-thomas-SIU1Glk6v5k-unsplash.jpg" alt="hand supporting a tree branch" width="500"height="auto">
+                <p>Project 2000 is a college check list and helper tool. It helps you stay organized and on track. It does this by helping you keep records of your test score, GPA, academic achievements, and extracurricular activities. Additionally, Project 2000 provides links to extra resources and information to help you stay in the know. Remember, this is just another step to your success.</p>
+            </div>
+        </main>
     </body>
 </html>

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.the-top-banner{
+    background-color: #5a0202;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+    margin:0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.quote{
+    font-style: italic;
+    color: #191313;
+}
+
+.the-dashboard-container{
+    display: flex;
+    height: auto;
+}
+
+.the-left-dashboard{
+    width: auto;
+    background-color: #022630;
+    padding: 20px;
+    flex-shrink: 0;
+    color: #f5f5f5;
+
+}
+.the-left-dashboard p{
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.the-left-dashboard h2{
+    color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.the-left-dashboard-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #0f325f;
+}
+
+.the-left-dashboard-list li{
+    margin-bottom: 10px;
+}
+
+.the-left-dashboard-list li a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.the-left-dashboard-list li a:hover{
+    text-decoration: underline;
+}
+.extracurricular-activities-dropdown-menu{
+    color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.the-content-panel{
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #695656;
+}
